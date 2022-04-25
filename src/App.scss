@@ -1,0 +1,1116 @@
+$width_block:1920px;
+@mixin content-contacts{
+    @include fonts_family_style_weight;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+@mixin content-contacts-info{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.05em;
+color: #818181;
+}
+
+
+@mixin content-messangers-info{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #818181;
+
+}
+
+@mixin form-elements-propeties{
+    background: #FFFFFF;
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px rgba(136, 136, 136, 0.1);
+    border-radius: 10px;
+}
+
+@mixin form_input_w_h{
+    width: 320px;
+    height: 34px;
+}
+@mixin form-placeholder{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+@mixin fonts{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+@mixin fonts_family_style_weight{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+}
+
+@mixin fonts1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin line_propeties{
+    position: absolute;
+    width: 110px;
+    height: 0px;
+    left: 905px;
+    border: 1px solid #008DFE;
+}
+
+
+.main_block{
+width:$width_block;
+height:2446px;
+position:relative;
+margin:0 auto;}
+
+.up_panel{
+width:$width_block;
+height:34px;
+background: #0A0043;
+position:absolute;
+top:0px;
+left:0px;
+
+ .mail{
+width:189px;
+height:21px;
+position:absolute;
+top:7px;
+left: 330px;
+}
+
+.text1{
+position: absolute;
+height: 21px;
+width: 163px;
+left: 356px;
+top: 7px;
+@include fonts;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.05em;
+}
+
+ .phone{
+    position:absolute;
+    height: 17px;
+    width: 147px;
+    left: 549px;
+    top: 8px;
+}
+
+
+ .text2{
+    position: absolute;
+    height: 17px;
+    width: 121px;
+    left: 575px;
+    top: 8px;
+    @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+
+ .watsapp{
+    position:absolute;
+    height: 18px;
+    width: 93px;
+    left: 726px;
+    top: 8px;
+}
+        
+ .text3{
+position: absolute;
+height: 15px;
+width: 67px;
+left: 752px;
+top: 10px;
+@include fonts;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 0.02em;
+}
+}
+
+.up_panel > .hurt{
+position:absolute;
+height: 23px;
+width: 33px;
+left: 1502px;
+top: 4px;
+}
+
+
+.up_panel > .language{
+    position:absolute;
+    height: 17px;
+    width: 25px;
+    left: 1565px;
+    top: 9px;
+}
+    
+
+.header{
+width:$width_block;
+height:60px;
+position:absolute;
+top:34px;
+left:0px;
+box-shadow: 0px 4px 18px rgba(138, 138, 138, 0.1);
+
+ .logo{
+    position:absolute;
+    height: 39px;
+    width: 70px;
+    left: 330px;
+    top: 10px;
+}
+
+.menu{
+    position:absolute;
+    height: 20px;
+    width: 543px;
+    left: 883px;
+    top: 20px; 
+}
+}
+
+.menu > li{display: inline-block;}
+.menu  .menu-a{
+    text-decoration: none;
+    @include fonts_family_style_weight;
+    font-size: 16px;
+    margin-right:40px;
+    line-height: 20px;
+    text-align: right;
+    color: #000000;
+}
+
+.header > .log-sign{
+    position:absolute;
+    height: 20px;
+    width: 144px;
+    left: 1446px;
+    top: 20px;
+}
+
+
+
+.main{
+width:$width_block;
+height:473px;
+position:absolute;
+left:0px;
+top:94px;
+background-color:white;}
+
+.main > .figure{
+    position: absolute;
+    width: 257px;
+    height: 356px;
+    left: 0px;
+    top: 0px;
+}
+.main > .line{
+    position: absolute;
+    width: 88.46px;
+    height: 3px;
+    left: 398.09px;
+    top: 140px;
+    background: #2B66FA;
+}
+
+
+.main > .text4{
+    position: absolute;
+    width: 123.43px;
+    height: 26px;
+    left: 508.14px;
+    top: 130px;
+    @include fonts_family_style_weight;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    
+}
+
+.main > .text5{
+    position: absolute;
+    width: 716.91px;
+    height: 59px;
+    left: 398.09px;
+    top: 157px;
+    @include fonts_family_style_weight;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.text5 > span{color:blue;}
+
+.main > .text6{
+    position: absolute;
+    left: 398px;
+    top: 219px;
+    @include fonts1;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+
+.main>.girl{
+    position: absolute;
+    width: 542.2px;
+    height: 459.68px;
+    left: 1432px;
+    top: 0px;
+}
+
+
+.main > .rectangle{
+    position: absolute;
+    height: 46px;
+    width:226px;
+    left: 395px;
+    top: 263px;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 10px rgba(99, 99, 99, 0.1));
+    border-radius: 30px;
+ .text7{
+    position: absolute;
+    height: 22px;
+    width: 164px;
+    left: 426px;
+    left: 31px;
+    top:12px;
+    @include fonts1;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+}
+
+.content{
+width:$width_block;
+height:1291px;
+position:absolute;
+left:0px;
+top:567px;
+
+.caption{
+    position: absolute;
+    width: 675px;
+    height: 22px;
+    left: 623px;
+    top: 70px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #818181;
+}
+
+}
+
+.form{
+    position:absolute;
+    top:0px;
+    left:739px;
+    width:520px;
+    height:570px;
+
+
+    .form-text{
+    position: absolute;
+    height: 20px;
+    width: 138px;
+    right: 186px;
+    bottom: 491px;
+    @include fonts_family_style_weight;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333333;}
+
+
+    .input1{
+    right:103px;
+    bottom:417px;
+    position: absolute;
+    @include form_input_w_h;
+    @include form-elements-propeties;
+    }
+
+    .input1::placeholder{
+    position: absolute;
+    width: 44.98px;
+    height: 15px;
+    left: 22px;
+    top: 10px;
+    @include form-placeholder;
+    }
+
+    .input2{
+    position: absolute;
+    @include form_input_w_h;
+    right:103px;
+    bottom:353px;
+    @include form-elements-propeties;
+    }
+
+    .input2::placeholder{
+    position: absolute;
+    width: 44.98px;
+    height: 15px;
+    left: 22px;
+    top: 10px;
+    @include form-placeholder;  
+    }
+
+    .input3{
+    position: absolute;
+    @include form_input_w_h;
+    right:103px;
+    bottom:289px;
+    @include form-elements-propeties;
+    }
+
+    .input3::placeholder{
+    position: absolute;
+    width: 44.98px;
+    height: 15px;
+    left: 22px;
+    top: 10px;
+    @include form-placeholder;
+    }
+
+
+    .textarea1{
+    position: absolute;
+    width: 320px;
+    height: 102px;
+    right:103px;
+    bottom:157px;
+    @include form-elements-propeties;
+    }
+
+    .textarea1::placeholder{
+    position: absolute;
+    width: 44.98px;
+    height: 15px;
+    left: 22px;
+    top: 10px;
+    @include form-placeholder;
+    }
+
+
+    .send{
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    right: 189px;
+    bottom:87px;
+    @include fonts_family_style_weight;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #0052D4 0%, #4364F7 50%, #505050 100%);
+    border-radius: 30px;
+    border:none;
+    }
+
+    .privacy{
+    position:absolute;
+    height: 13px;
+    width: 140px;
+    right:189px;
+    bottom:34px;
+    @include fonts1;
+    font-size: 12px;    
+    line-height: 15px;
+    text-align: center;
+    color: #B1B1B1;
+    }
+}
+
+.content > .decor{
+    margin-top:61px;
+}
+
+.content > .line1{
+    @include line_propeties;
+    top: 793px;
+}
+
+.content > .line2{
+    @include line_propeties;
+    top: 1022px;
+    transform: rotate(180deg);
+}
+
+.content > .contact{
+    position: absolute;
+    width: 1013px;
+    height: 129px;
+    left: 478px;
+    top: 843px;
+}
+
+.contact > .phone{
+    position: absolute;
+    width: 75px;
+    height: 27px;
+    left: 47px;
+    top: 0px;  
+    @include content-contacts;
+}
+
+
+.contact > .image-phone{
+    position:absolute;
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    top: 52px;
+}
+
+.contact > .phone-number{
+    position:absolute;
+    height: 20px;
+    width: 136px;
+    left: 33px;
+    top: 51px;
+    @include content-contacts-info;
+}
+
+
+.contact > .office{
+    position: absolute;
+    width: 173px;
+    height: 27px;
+    left: 394px;
+    top: 0px;
+    @include content-contacts;
+}
+
+
+.contact > .office-adress{
+    position: absolute;
+    width: 367px;
+    height: 81px;
+    left: 299px;
+    top: 48px;
+    text-align: center;
+    @include content-contacts-info;
+}
+
+.contact > .e-mail{
+    position: absolute;
+    width: 73px;
+    height: 27px;
+    left: 868px;
+    top: 0px;
+    @include content-contacts;
+}
+
+.contact > .image-e-mail{
+    position:absolute;
+    height: 13px;
+    width: 18px;
+    left: 796px;
+    top: 52px;
+    border-radius: 0px;
+}
+
+.contact > .e-mail-info{
+    position: absolute;
+    width: 130px;
+    height: 23px;
+    left: 829px;
+    top: 51px;
+    word-break: break-all;
+    @include content-contacts-info;
+}
+
+
+.content > .messangers{
+    position: absolute;
+    width: 642px;
+    height: 89px;
+    left: 639px;
+    top: 1072px;
+}
+
+
+.messangers > .text-online{
+    position: absolute;
+    width: 171px;
+    height: 29px;
+    left: 232px;
+    top: 0px;
+    @include fonts_family_style_weight;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.messangers > .image-watsapp{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 60px;
+}
+
+.messangers > .text-watsapp{
+    position: absolute;
+    left: 42px;
+    top: 65px;
+    @include content-messangers-info;
+}
+
+
+.messangers > .image-viber{
+    position:absolute;
+    height: 15px;
+    width: 14px;
+    left: 191px;
+    top: 59px;
+    border-radius: 0px;
+}
+
+.messangers > .text-viber{
+    position: absolute;
+    left: 231px;
+    top: 65px;
+    @include content-messangers-info;
+}
+
+.messangers > .image-messenger{
+    position:absolute;
+    height: 30px;
+    width: 30px;
+    left:339px;
+    top: 59px;
+}
+
+.messangers > .text-messenger{
+    position: absolute;
+    left: 381px;
+    top: 65px;
+    @include content-messangers-info;
+}
+
+.messangers > .image-telegram{
+    position:absolute;
+    height: 30px;
+    width: 30px;
+    left:531px;
+    top: 59px;
+}
+
+.messangers > .text-telegram{
+    position: absolute;
+    left: 573px;
+    top: 65px;
+    @include content-messangers-info;
+}
+
+.map-and-form{
+    position:absolute;
+    height: 561px;
+    width: 1260px;
+    left: 330px;
+    top: 152px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 20px rgba(138, 138, 138, 0.15);
+    border-radius: 10px;
+}
+
+
+.footer{
+width:$width_block;
+height:589px;
+position:absolute;
+left:0px;
+top:1857px;
+background-color: #1D2647;
+
+
+    .logo-footer{
+    position:absolute;
+    height: 74px;
+    width: 120px;
+    left: 878px;
+    top: 51px;
+    border-radius: 0px;
+
+    }
+
+
+ .text{
+    position: absolute;
+    left: 796px;
+    top: 160px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+}
+
+
+ .line3{
+    position: absolute;
+    height: 0px;
+    width: 1110px;
+    left: 405px;    
+    top: 190px;
+    border: 1px solid white;
+}
+
+.footer > .footer-menu{
+    position:absolute;
+    height: 17px;
+    width: 394px;
+    left: 771px;
+    top: 220px;
+}
+.footer-menu > li{display: inline-block;}
+
+.footer-menu  .menu-a{
+    @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    padding-right:52px;
+}
+
+
+.footer >  .rectangle-info{
+    position: absolute;
+    height: 218px;
+    width: 1109.73046875px;
+    left: 405px;
+    top: 277px;
+}
+
+
+.footer  .f-contacts {
+    position: absolute;
+    height: 171px;
+    width: 364px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+    .caption{
+    position:absolute;
+    height: 20px;
+    width: 84px;
+    left: 0px;
+    top: 0px;
+    @include fonts_family_style_weight;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    
+}
+}
+
+.f-contacts > .phone-info{
+    position:absolute;
+    height: 20px;
+    width: 184px;
+    left: 23px;
+    top: 40px;
+img{
+    float:left;
+}
+ .m-number{
+    height: 17px;
+    width: 147px;
+    float:left;
+    padding-left: 24px;
+    @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+}
+
+.f-contacts > .mail-info{
+    position:absolute;
+    height: 20px;
+    width: 203px;
+    left: 23px;
+    top:81px;
+
+
+ img{
+    float:left;
+}
+.mail{
+    height: 17px;
+    width: 147px;
+    float:left;
+    padding-left: 20px;
+    @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+}
+
+
+.f-contacts > .location-info{
+    position:absolute;
+    height: 20px;
+    width: 203px;
+    left: 23px;
+    top:120px;
+
+
+ img{
+    float:left;
+}
+
+ .adress{
+    height: 51px;
+    width: 304px;
+    float:left;
+    margin-top:-20px;
+    margin-left: 33px;
+    @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+
+}
+
+.footer .type{
+    position:absolute;
+    height: 215px;
+    width: 112px;
+    left: 521px;
+    top: 0px;
+
+    .caption{
+    position:absolute;
+    height: 20px;
+    width: 47px;
+    left: 0px;
+    top:0px;
+    @include fonts_family_style_weight;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+}
+}
+.unruliness{
+    position:absolute;
+    height: 175px;
+    width: 112px;
+    left: -40px;
+    top: 20px;
+    @include fonts;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.05em;
+     li{
+    list-style-type: none;
+}
+}
+
+
+.footer .follow{
+    position:absolute;
+    height: 218px;
+    width: 313px;
+    left: 810px;
+    top: 0px;
+}
+
+
+.follow > .caption{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    @include fonts_family_style_weight;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+}
+
+ .facebook-info{
+    position:absolute;
+    height: 24px;
+    width: 119px;
+    left: 20px;
+    top: 40px;
+
+    img{
+    float:left;
+}
+ }
+
+.facebook-info > .facebook{
+    height: 17px;
+    width: 75px;
+    left: 1259px;
+    top: 321px;
+    float:left;
+    margin-left:20px;
+    margin-top:4px;
+    @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+
+
+ .linkedin-info{
+    position:absolute;
+    height: 24px;
+    width: 119px;
+    left: 20px;
+    top: 100px;
+ img{
+    float:left;
+}
+ }
+
+.linkedin-info > .linkedin{
+    height: 17px;
+    width: 75px;
+    left: 1259px;
+    top: 321px;
+    float:left;
+    margin-left:20px;
+    margin-top:3.6px;
+    @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+
+.youtube-info{
+    position:absolute;
+    height: 24px;
+    width: 119px;
+    left: 189px;
+    top: 40px;
+ img{
+    float:left;
+}
+}
+
+.youtube-info > .youtube{
+    height: 17px;
+    width: 75px;
+    left: 1259px;
+    top: 321px;
+    float:left;
+    margin-left:20px;
+    margin-top:4px;
+    @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+
+
+.instagram-info{
+    position:absolute;
+    height: 24px;
+    width: 119px;
+    left: 189px;
+    top: 100px;
+     img{
+    float:left;
+}
+}
+
+.instagram-info > .instagram{
+    height: 17px;
+    width: 75px;
+    left: 1259px;
+    top: 321px;
+    float:left;
+    margin-left:20px;
+    margin-top:4px;
+    @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+
+ .subscribe-info{
+    position:absolute;
+    height: 58px;
+    width: 293px;
+    left: 20px;
+    top: 160px;
+    img{
+    float:left;
+}
+ }
+
+.subscribe-info > .subscribe{
+    height: 17px;
+    width: 192px;
+    left: 1215px;
+    float:left;
+    @include fonts1;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.follow > .input-subsribe{
+    position: absolute;
+    height: 30px;
+    width: 293px;
+    left: 20px;
+    top: 188px;
+    background-color:green;
+    border-radius: 5px;
+}
+
+.input-subsribe > input {
+    height: 30px;
+    width: 213px;
+    background-color:white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    float:left;
+}
+
+input::placeholder{
+    position: absolute;
+    top:8px;
+    left:18px;
+    height: 15px;
+    width: 70px;
+    @include fonts1;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #6A6A6A;
+}
+
+.input-subsribe > input[type=submit]{
+    width:76px;
+    height:32px;
+    border:none;
+    background: linear-gradient(90deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%);
+    border-radius: 0px 5px 5px 0px;
+    float:left;
+    @include fonts1;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+
+
+.reating-info{
+    position:absolute;
+    height: 20px;
+    width: 316px;
+    left: 20px;
+    top: 193px;
+
+    .reating{
+   @include fonts;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top:4px;
+    float:left;
+}
+}
+
+ .stars{
+    height: 20px;
+    width: 119px;
+    float:left;
+    margin-left:20px;
+    img{
+    float:left;
+    margin:1px 2px 2px 0px;
+}
+ }
+
+.reating-info > .votes{
+    height: 15px;
+    width: 60px;
+    float:left;
+    margin-top:4px;
+    @include fonts;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+
+.footer > .company-info{
+    position: absolute;
+    height: 24px;
+    width: 769px;
+    left: 586px;
+    top: 545px;
+    @include fonts;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.footer > .arrow{
+    position: absolute;
+    top:495px;
+    left:20px;
+}
